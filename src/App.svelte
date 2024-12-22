@@ -23,7 +23,7 @@
         loading = true;
 
         try {
-            const response = await axios.get('http://127.0.0.1:8000/api/video-info/', {
+            const response = await axios.get('https://505d-103-151-43-62.ngrok-free.app/api/video-info/', {
                 params: { url },
             });
             title = response.data.title;
