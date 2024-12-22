@@ -283,7 +283,7 @@
     }
 
     a {
-        color: #4CAF50;
+        color: #5aa53d;
         text-decoration: none;
         font-weight: bold;
     }
