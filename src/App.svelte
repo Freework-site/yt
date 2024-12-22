@@ -23,7 +23,7 @@
         loading = true;
 
         try {
-            const response = await axios.get('https://505d-103-151-43-62.ngrok-free.app/api/video-info/', {
+            const response = await axios.get('https://44aaf563c5bc07d8c9b4fca6f55b7be3.serveo.net/api/video-info/', {
                 params: { url },
             });
             title = response.data.title;
