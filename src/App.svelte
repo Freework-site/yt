@@ -22,7 +22,7 @@
         loading = true;
 
         try {
-            const response = await axios.get('http://127.0.0.1:8000/api/video-info/', {
+            const response = await axios.get('https://44aaf563c5bc07d8c9b4fca6f55b7be3.serveo.net/api/video-info/', {
                 params: { url },
             });
             title = response.data.title;

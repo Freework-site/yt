@@ -4272,7 +4272,7 @@ var app = (function () {
     			p = element("p");
     			t = text(/*errorMessage*/ ctx[3]);
     			attr_dev(p, "class", "error svelte-1xfwo9b");
-    			add_location(p, file, 76, 16, 2495);
+    			add_location(p, file, 76, 16, 2525);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -4313,9 +4313,9 @@ var app = (function () {
     			h2 = element("h2");
     			t1 = text(/*title*/ ctx[2]);
     			attr_dev(h2, "class", "svelte-1xfwo9b");
-    			add_location(h2, file, 85, 20, 2851);
+    			add_location(h2, file, 85, 20, 2881);
     			attr_dev(div, "class", "video-header svelte-1xfwo9b");
-    			add_location(div, file, 81, 16, 2650);
+    			add_location(div, file, 81, 16, 2680);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -4368,7 +4368,7 @@ var app = (function () {
     			if (!src_url_equal(img.src, img_src_value = /*thumbnailUrl*/ ctx[7])) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Thumbnail");
     			attr_dev(img, "class", "thumbnail svelte-1xfwo9b");
-    			add_location(img, file, 83, 24, 2742);
+    			add_location(img, file, 83, 24, 2772);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -4423,12 +4423,12 @@ var app = (function () {
     			if_block1_anchor = empty();
     			attr_dev(button0, "class", "tab svelte-1xfwo9b");
     			toggle_class(button0, "selected", /*showAudio*/ ctx[5]);
-    			add_location(button0, file, 92, 20, 3063);
+    			add_location(button0, file, 92, 20, 3093);
     			attr_dev(button1, "class", "tab svelte-1xfwo9b");
     			toggle_class(button1, "selected", /*showVideo*/ ctx[6]);
-    			add_location(button1, file, 93, 20, 3186);
+    			add_location(button1, file, 93, 20, 3216);
     			attr_dev(div, "class", "tabs svelte-1xfwo9b");
-    			add_location(div, file, 91, 16, 3023);
+    			add_location(div, file, 91, 16, 3053);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -4540,11 +4540,11 @@ var app = (function () {
     			}
 
     			attr_dev(h3, "class", "svelte-1xfwo9b");
-    			add_location(h3, file, 100, 28, 3516);
+    			add_location(h3, file, 100, 28, 3546);
     			attr_dev(div0, "class", "audio-box svelte-1xfwo9b");
-    			add_location(div0, file, 99, 24, 3463);
+    			add_location(div0, file, 99, 24, 3493);
     			attr_dev(div1, "class", "audio-video-box svelte-1xfwo9b");
-    			add_location(div1, file, 98, 20, 3408);
+    			add_location(div1, file, 98, 20, 3438);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -4616,11 +4616,11 @@ var app = (function () {
     			t3 = text(t3_value);
     			t4 = space();
     			attr_dev(p, "class", "svelte-1xfwo9b");
-    			add_location(p, file, 104, 40, 3795);
+    			add_location(p, file, 104, 40, 3825);
     			attr_dev(button, "class", "svelte-1xfwo9b");
-    			add_location(button, file, 105, 40, 3863);
+    			add_location(button, file, 105, 40, 3893);
     			attr_dev(div, "class", "audio-item svelte-1xfwo9b");
-    			add_location(div, file, 103, 36, 3729);
+    			add_location(div, file, 103, 36, 3759);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -4746,11 +4746,11 @@ var app = (function () {
     			}
 
     			attr_dev(h3, "class", "svelte-1xfwo9b");
-    			add_location(h3, file, 119, 28, 4439);
+    			add_location(h3, file, 119, 28, 4469);
     			attr_dev(div0, "class", "video-box svelte-1xfwo9b");
-    			add_location(div0, file, 118, 24, 4386);
+    			add_location(div0, file, 118, 24, 4416);
     			attr_dev(div1, "class", "audio-video-box svelte-1xfwo9b");
-    			add_location(div1, file, 117, 20, 4331);
+    			add_location(div1, file, 117, 20, 4361);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div1, anchor);
@@ -4822,11 +4822,11 @@ var app = (function () {
     			t3 = text(t3_value);
     			t4 = space();
     			attr_dev(p, "class", "svelte-1xfwo9b");
-    			add_location(p, file, 123, 40, 4694);
+    			add_location(p, file, 123, 40, 4724);
     			attr_dev(button, "class", "svelte-1xfwo9b");
-    			add_location(button, file, 124, 40, 4762);
+    			add_location(button, file, 124, 40, 4792);
     			attr_dev(div, "class", "video-item svelte-1xfwo9b");
-    			add_location(div, file, 122, 36, 4628);
+    			add_location(div, file, 122, 36, 4658);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -4961,22 +4961,22 @@ var app = (function () {
     			t6 = space();
     			if (if_block2) if_block2.c();
     			attr_dev(h1, "class", "svelte-1xfwo9b");
-    			add_location(h1, file, 62, 12, 1980);
+    			add_location(h1, file, 62, 12, 2010);
     			attr_dev(input, "type", "text");
     			attr_dev(input, "placeholder", "Paste YouTube URL");
     			attr_dev(input, "class", "svelte-1xfwo9b");
-    			add_location(input, file, 64, 16, 2074);
+    			add_location(input, file, 64, 16, 2104);
     			button.disabled = /*loading*/ ctx[4];
     			attr_dev(button, "class", "svelte-1xfwo9b");
-    			add_location(button, file, 69, 16, 2242);
+    			add_location(button, file, 69, 16, 2272);
     			attr_dev(div0, "class", "input-container svelte-1xfwo9b");
-    			add_location(div0, file, 63, 12, 2027);
+    			add_location(div0, file, 63, 12, 2057);
     			attr_dev(div1, "class", "card svelte-1xfwo9b");
-    			add_location(div1, file, 61, 8, 1948);
+    			add_location(div1, file, 61, 8, 1978);
     			attr_dev(div2, "class", "container svelte-1xfwo9b");
-    			add_location(div2, file, 60, 4, 1915);
+    			add_location(div2, file, 60, 4, 1945);
     			attr_dev(main, "class", "svelte-1xfwo9b");
-    			add_location(main, file, 59, 0, 1903);
+    			add_location(main, file, 59, 0, 1933);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5106,7 +5106,7 @@ var app = (function () {
     		$$invalidate(4, loading = true);
 
     		try {
-    			const response = await axios$1.get('http://127.0.0.1:8000/api/video-info/', { params: { url } });
+    			const response = await axios$1.get('https://44aaf563c5bc07d8c9b4fca6f55b7be3.serveo.net/api/video-info/', { params: { url } });
     			$$invalidate(2, title = response.data.title);
     			$$invalidate(1, formats = response.data.formats);
     			$$invalidate(7, thumbnailUrl = response.data.thumbnail); // Assuming the thumbnail URL is part of the response
