@@ -22,7 +22,7 @@
         loading = true;
 
         try {
-            const response = await axios.get('http://127.0.0.1:8000/api/video-info/', {
+            const response = await axios.get('https://7f41-103-151-43-62.ngrok-free.app/api/video-info/', {
                 params: { url },
             });
             title = response.data.title;
@@ -283,7 +283,7 @@
     }
 
     a {
-        color: #4CAF50;
+        color: #5aa53d;
         text-decoration: none;
         font-weight: bold;
     }
