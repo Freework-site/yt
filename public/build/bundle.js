@@ -5106,7 +5106,7 @@ var app = (function () {
     		$$invalidate(4, loading = true);
 
     		try {
-    			const response = await axios$1.get('https://7f41-103-151-43-62.ngrok-free.app/api/video-info/', { params: { url } });
+    			const response = await axios$1.get('https://d30d-103-151-43-62.ngrok-free.app/api/video-info/', { params: { url } });
     			$$invalidate(2, title = response.data.title);
     			$$invalidate(1, formats = response.data.formats);
     			$$invalidate(7, thumbnailUrl = response.data.thumbnail); // Assuming the thumbnail URL is part of the response
